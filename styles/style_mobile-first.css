@@ -74,7 +74,7 @@ section#login {
 }
 
 section#login>div#imagem {
-    background: url(/Img/bg_batalha1.jpeg);
+    background: url(/img/bg_batalha1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
