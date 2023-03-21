@@ -84,5 +84,22 @@ section#login>div#imagem {
 section#login>div#formulario {
     padding: 17px;
     display: block;
-    ;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+}
+
+p {
+    margin-top: 17px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 17px;
+    text-align: center;
 }

@@ -31,7 +31,6 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
 
-
     background-color: rgb(44, 45, 49);
     color: white;
     width: 250px;
@@ -50,9 +49,12 @@ section#login {
 section#login>div#formulario {
     padding: 17px;
     display: block;
-    text-align: center;
 }
 
 hr {
+    margin-top: 17px;
+}
+
+h2 {
     margin-top: 17px;
 }
