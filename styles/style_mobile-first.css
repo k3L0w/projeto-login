@@ -51,19 +51,19 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
     /*tudo fora da borda ficarã oculto*/
+    overflow: hidden;
+    transform: translate(-50%, -50%);
 
     background-color: white;
     width: 250px;
-    height: 600px;
+    height: 620px;
     border-radius: 17px;
 
     /*efeitos de movimento e transição*/
     transition: width 0.7s, height 0.7s;
-    transition-timing-function: ease;
     /*suavização no movimento*/
+    transition-timing-function: ease;
 }
 
 section#login>div#imagem {
@@ -141,7 +141,25 @@ form>a.botao:hover {
 }
 
 
-/*retiar os name: */
+/*ocultar os labels: */
 div.campo>label {
     display: none;
+}
+
+/*google icons*/
+div>span.material-symbols-outlined {
+    background-color: rgb(18, 24, 9);
+    border-radius: 7px 0px 0px 7px;
+    padding: 7px;
+}
+
+/*campos iputs*/
+div>input {
+    border-radius: 0px 7px 7px 0px;
+    padding: 2px;
+    border: none;
+    height: 28px;
+    /*posicao*/
+    transform: translateY(-7px);
+    width: calc(100% - 44px);
 }

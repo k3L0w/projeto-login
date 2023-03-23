@@ -14,10 +14,14 @@ big Screen: 1200 acima. queries-all
 */
 
 
-/*tablet*/
+/*estilização tablet*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#login {
         width: 90%;
+    }
+
+    section#login {
+        height: 400px;
     }
 
     section#login>div#imagem {
@@ -38,9 +42,14 @@ big Screen: 1200 acima. queries-all
     }
 }
 
+/*configurações desktop and TV*/
 @media screen and (min-width: 998px) {
     section#login {
         width: 900px;
+    }
+
+    section#login {
+        height: 410px;
     }
 
     section#login>div#imagem {
