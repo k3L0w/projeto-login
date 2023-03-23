@@ -57,7 +57,7 @@ section#login {
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 600px;
     border-radius: 17px;
 
     /*efeitos de movimento e transição*/
@@ -77,14 +77,71 @@ section#login>div#imagem {
 section#login>div#formulario {
     padding: 17px;
     display: block;
+    background-color: rgba(213, 226, 226, 0.651);
 }
 
 p {
-    margin-top: 17px;
+    margin-top: 5px;
     text-align: center;
 }
 
 h2 {
-    margin-top: 17px;
+    margin-top: 7px;
     text-align: center;
+}
+
+form>div.campo {
+    /*estilos das classes*/
+    background-color: #393D47;
+    color: white;
+    padding: 17px;
+    border-radius: 17px;
+    margin: 7px;
+    width: 100%;
+    display: block;
+    right: 40px;
+}
+
+
+form>input[type="submit"] {
+    display: block;
+    /*define o submit em uma linha so*/
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    /*100% do container, nesse caso o form: login*/
+    border-radius: 17px;
+    background-color: #25AF81;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form>input[type="submit"]:hover {
+    background-color: #093d2c;
+    transition: 0.4s;
+}
+
+form>a.botao {
+    /*acesso ao link da classe botao*/
+    display: block;
+    text-align: center;
+    margin-top: 7px;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    text-decoration: none;
+    color: #093d2c;
+}
+
+form>a.botao:hover {
+    color: #02180d;
+    text-decoration: underline;
+}
+
+
+/*retiar os name: */
+div.campo>label {
+    display: none;
 }
